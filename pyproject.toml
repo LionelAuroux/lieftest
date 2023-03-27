@@ -1,0 +1,10 @@
+[build-system]
+requires = ["build", "setuptools", "wheel"]
+
+[project]
+name = "lieftest"
+version = "0.0.1"
+dependencies = [
+    "pytest",
+    "lief",
+]
